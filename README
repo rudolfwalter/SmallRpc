@@ -13,7 +13,7 @@ PURPOSE
 
 SOURCE CODE
   The source code is divided up into RPC client specific, RPC server specific,
-  and common parts -- each part place into its appropriate folder.
+  and common parts -- each part placed into its appropriate folder.
   
   common/SimpleNetworking.* contain a simple wrapper for BSD sockets.
   
