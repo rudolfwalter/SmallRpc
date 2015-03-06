@@ -1,0 +1,35 @@
+RWG's SmallRpc
+
+README
+  SmallRpc is a small remote procedure call library written in C++14.
+  
+LICENSE
+  This code is licensed under the GNU GPL, version 3 or later.
+  The full license text can be found in the COPYING file.
+  In case of any discrepancy with other files, the COPYING file takes priority.
+
+PURPOSE
+  This code was written for a Distributed Systems course homework assignment.
+
+SOURCE CODE
+  The source code is divided up into RPC client specific, RPC server specific,
+  and common parts -- each part place into its appropriate folder.
+  
+  common/SimpleNetworking.* contain a simple wrapper for BSD sockets.
+  
+  The RemoteProcedureId enumeration in common/RpcConnection.h should contain a
+  separate id for each implemented remote procedure.
+  That file also contains wrappers for integral and floating point types. These
+  wrappers are used automatically when sending single values from the client to
+  the server.
+  
+  The RpcConnection.* files contain the actual library implementation.
+  
+  The Procedures.* files contain the parts of the procedures as appropriate on
+  each side (currently for four example procedures).
+  
+  The server/RpcConnection.cpp file contains the procedure dispatch code: it has
+  to be modified when adding/removing remote procedures.
+  
+  The main.cpp files contain a sample RPC application.
+  
