@@ -2,7 +2,7 @@ RWG's SmallRpc
 
 README
   SmallRpc is a small remote procedure call library written in C++14.
-  
+
 LICENSE
   This code is licensed under the GNU GPL, version 3 or later.
   The full license text can be found in the COPYING file.
@@ -32,4 +32,8 @@ SOURCE CODE
   to be modified when adding/removing remote procedures.
   
   The main.cpp files contain a sample RPC application.
-  
+
+GIT
+  The latest version can be found at
+  <https://github.com/rudolfwalter/SmallRpc.git>.
+
